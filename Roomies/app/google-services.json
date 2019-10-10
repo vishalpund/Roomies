@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "17253171614",
+    "firebase_url": "https://roomies-d97a9.firebaseio.com",
+    "project_id": "roomies-d97a9",
+    "storage_bucket": "roomies-d97a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17253171614:android:0a2d30f3edaeb285f1168f",
+        "android_client_info": {
+          "package_name": "com.example.android.roomies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17253171614-irrpl2t26skbndqn9gglnsu5acqluuok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.roomies",
+            "certificate_hash": "553dd3ca21b2e96d8f5445a0158bb9b992738153"
+          }
+        },
+        {
+          "client_id": "17253171614-kcr6thmc18kvgd5nc18k5lt1ti0trjsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK3eu59rSoaQHY6O92let2WNox4WpmGtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17253171614-kcr6thmc18kvgd5nc18k5lt1ti0trjsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

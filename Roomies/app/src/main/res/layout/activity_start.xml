@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="231dp"
+        android:layout_height="91dp"
+        android:text="START ACTIVITY"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEED A ACCOUNT"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:text="@string/need_a_account" />
+</android.support.constraint.ConstraintLayout>

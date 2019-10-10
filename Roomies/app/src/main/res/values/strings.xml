@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Roomies</string>
+    <string name="need_a_account">NEED A NEW ACCOUNT?</string>
+    <string name="display_name">DISPLAY NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+</resources>

@@ -6,22 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="250dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="200dp"
+        android:text="LOGIN ACCOUNT"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="login account" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="231dp"
         android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="8dp"
         android:text="START ACTIVITY"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="243dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/start_reg_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="NEED A ACCOUNT"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="409dp"
+        app:layout_constraintBottom_toTopOf="@+id/start_login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="@string/need_a_account" />
 </android.support.constraint.ConstraintLayout>

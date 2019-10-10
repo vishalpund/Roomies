@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include layout ="@layout/app_bar_layout" android:id="@+id/main_page_layout"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="237dp"
         android:layout_height="81dp"
-        android:text="MAIN ACTIVITY"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="MAIN_ACTIVITY"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

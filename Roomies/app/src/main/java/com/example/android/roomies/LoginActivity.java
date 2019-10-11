@@ -86,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                         mRegProgress.dismiss();
 
                         Intent main_Intent =  new Intent(LoginActivity.this,MainActivity.class);
+                        main_Intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(main_Intent);
                         finish();
                     } else {

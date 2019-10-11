@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".activity_login2" />
+        <activity android:name=".UserActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".RegisterActivity"
             android:parentActivityName=".StartActivity" />
